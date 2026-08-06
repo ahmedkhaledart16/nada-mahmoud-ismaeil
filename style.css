@@ -686,3 +686,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   .reveal { opacity: 1; transform: none; }
   html { scroll-behavior: auto; }
 }
+/* Hide Prayer Counter */
+#counter-card {
+  display: none !important;
+}
