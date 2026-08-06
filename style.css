@@ -690,3 +690,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 #counter-card {
   display: none !important;
 }
+/* Hide Story Section */
+#story {
+    display: none !important;
+}
