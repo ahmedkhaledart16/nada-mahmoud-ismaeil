@@ -403,6 +403,7 @@
           <path d="M80 12 H120" />
         </svg>
       </div>
+      
       <!-- Share Section -->
       <section id="share" class="section">
         <div class="container">
@@ -522,7 +523,12 @@
 
     <!-- Toast -->
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-
+<script>
+window.addEventListener("load", function(){
+  document.getElementById("loader").classList.add("hidden");
+});
+</script>
+    
     <script type="module" src="/main.js"></script>
   </body>
 </html>
