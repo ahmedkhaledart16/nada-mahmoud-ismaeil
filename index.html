@@ -230,7 +230,20 @@
           <div class="section-head reveal">
             <span class="section-eyebrow">أدعية</span>
             <h2 class="section-title">أدعية الشفاء</h2>
-            <p class="section-sub">30 دعاء صحيح من القرآن والسنة — ادعُ به لندى.</p>
+            <p class="section-sub">30 دعاء صحيح من القرآن والسنة — انسخ وادعُ به لندى.</p>
+          </div>
+
+          <!-- Prayer Counter -->
+          <div class="counter-card reveal" id="counter-card">
+            <div class="counter-hands">🤲</div>
+            <div class="counter-info">
+              <span class="counter-label">عدد من دعوا لندى</span>
+              <span class="counter-num" id="counter-num" aria-live="polite">٠</span>
+            </div>
+            <button class="btn btn-primary" id="counter-btn" type="button">
+              <i data-lucide="heart"></i>
+              <span>دعوت لها 🤲</span>
+            </button>
           </div>
 
           <!-- Search + Tabs -->
@@ -403,7 +416,7 @@
           <path d="M80 12 H120" />
         </svg>
       </div>
-      
+
       <!-- Share Section -->
       <section id="share" class="section">
         <div class="container">
@@ -523,12 +536,7 @@
 
     <!-- Toast -->
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script>
-window.addEventListener("load", function(){
-  document.getElementById("loader").classList.add("hidden");
-});
-</script>
-    
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
