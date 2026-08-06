@@ -1,0 +1,19 @@
+{
+  "name": "ادعوا لندى محمود إسماعيل",
+  "short_name": "ادعوا لندى",
+  "description": "حملة دعاء لشفاء ندى محمود إسماعيل",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0F766E",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

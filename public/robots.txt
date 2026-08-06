@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://duaa-nada.github.io/sitemap.xml
